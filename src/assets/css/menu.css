@@ -65,6 +65,7 @@
     justify-content: center;
     position: relative;
     z-index: 1;
+    border-radius: 10%;
   }
   #services-966 .cs-item:hover .cs-h3 {
     color: var(--bodyTextColorWhite);
@@ -86,6 +87,7 @@
     align-items: center;
     position: relative;
     left: calc(clamp(1.5rem, 4vw, 2.5rem) * -1);
+    border-radius: 50%;
   }
   #services-966 .cs-icon {
     width: 2.5rem;
@@ -145,6 +147,7 @@
     left: 0;
     z-index: -1;
     transition: opacity 0.3s;
+    border-radius: 10%;
   }
   #services-966 .cs-background:before {
     /* background color overlay */
@@ -153,11 +156,11 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #1a1a1a;
     opacity: 0.84;
     top: 0;
     left: 0;
     z-index: 1;
+    border-radius: 10%;
   }
   #services-966 .cs-background img {
     position: absolute;
@@ -167,24 +170,25 @@
     width: 100%;
     /* Makes img tag act as a background image */
     object-fit: cover;
+    border-radius: 10%;
   }
-  #services-966 .cs-waves {
-    width: 100%;
-    height: 13.875rem;
-    background-color: #EB5B00;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  }
-  #services-966 .cs-waves img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+}
+#services-966 .cs-waves {
+  width: 100%;
+  height: 13.875rem;
+  background-color: #EB5B00;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+#services-966 .cs-waves img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
