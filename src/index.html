@@ -307,13 +307,135 @@ Highly recommend to try out there Friday steak nights                </p>
 </section>
                                 
 
-                     
+<section id="contact">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Contact Us</span>
+      <h2 class="cs-title">Ask Us Anything!</h2>
+      <form
+        class="cs-form"
+        id="cs-form"
+        method="post"
+        name="Contact Form"
+      >
+        <label class="cs-label"
+          >Name
+          <input
+            class="cs-input"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+            type="text"
+        /></label>
+        <label class="cs-label cs-email"
+          >Email
+          <input
+            class="cs-input"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+            type="text"
+        /></label>
+        <label class="cs-label cs-phone"
+          >Phone
+          <input
+            class="cs-input"
+            id="phone"
+            name="phone"
+            placeholder="Phone"
+            required
+            type="text"
+        /></label>
+        <label class="cs-label"
+          >Message
+          <textarea
+            class="cs-input cs-textarea"
+            id="message"
+            name="Message"
+            placeholder="Write message..."
+            required
+          ></textarea>
+        </label>
+        <button class="cs-button-solid" type="submit">
+          Submit Message
+        </button>
+      </form>
+    </div>
+    <div class="cs-right">
+      <div class="cs-map" aria-hidden="true">
+        <iframe
+          allowfullscreen
+          height="450"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9477.90620116487!2d-113.3224946!3d53.5671111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a03dba437d93c9%3A0x6b7edeb3a43f522b!2sWaffle%20House%20Bar%20%26%20Grill!5e0!3m2!1sen!2sph!4v1721200089085!5m2!1sen!2sph"
+          style="border: 0"
+          width="600"
+        ></iframe>
+      </div>
+      <ul class="cs-contact-group">
+        <li class="cs-item">
+          <span class="cs-header"
+            ><img
+              alt="icon"
+              decoding="async"
+              height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone-gold.svg"
+              width="20"
+              class="cs-icon"
+            />
+            Phone </span
+          ><a href="tel:219-942-6300" class="cs-link">780-200-0735</a>
+        </li>
+        <li class="cs-item">
+          <span class="cs-header"
+            ><img
+              alt="icon"
+              decoding="async"
+              height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-gold.svg"
+              width="20"
+              class="cs-icon"
+            />
+            Address </span
+          ><a
+            href="https://maps.app.goo.gl/9RoZy4SK53aVcFQJ6"
+            class="cs-link"
+            >26 Strathmoor Drive, Sherwood Park, <br />AB, Canada, Alberta</a
+          >
+        </li>
+        <li class="cs-item">
+          <span class="cs-header"
+            ><img
+              alt="icon"
+              decoding="async"
+              height="20"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/clock-gold.svg"
+              width="20"
+              class="cs-icon"
+            />
+            Our Hours </span
+          ><span class="cs-hours">Restaurant: 8AM-8PM
+            </span>
+          <span class="cs-hours">Bar: 10AM-2AM</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>       
+
+   
+
+
+
 
 <!-- ============================================ -->
 <!--                    Map                       -->
 <!-- ============================================ -->
 
-<section id="map-1834">
+<!-- <section id="map-1834">
   <img
     class="cs-icon"
     src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/brown-pin.svg"
@@ -342,7 +464,7 @@ Highly recommend to try out there Friday steak nights                </p>
       </li>
     </ul>
   </div>
-</section>
+</section> -->
 
 
 {% endblock %}
