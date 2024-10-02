@@ -74,6 +74,9 @@
         margin: 0;
         color: var(--bodyTextColor);
     }
+    .dark-mode #sbs-1067 .cs-h3, .dark-mode #sbs-1067 .cs-li-text {
+        color: var(--bodyTextColorWhite);
+    }
     #sbs-1067 .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
