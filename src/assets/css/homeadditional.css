@@ -361,6 +361,20 @@
 /* you can place this CSS group in your global stylesheet that is loaded on every page of the site so all you need to do is copy and paste the HTML into any section and it will all work. Or piece it inside the media queries in whatever section you want to add it to. You can also remove the cs-topper, cs-title, and cs-text and if they aren't already in your global stylesheet you can paste them outside these media queries so all cs-topper, cs-title, and cs-text on your site will pull from 1 place. */
 /* Mobile */
 @media only screen and (min-width: 0rem) {
+    #invitation {
+        padding: var(--sectionPadding);
+        position: relative;
+        overflow: hidden;
+    }
+    #invitation .cs-container {
+        width: 100%;
+        max-width: 69rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(3rem, 6vw, 4rem);
+    }
     #cs-content-1801 {
       /* set text align to left if content needs to be left aligned */
       text-align: center;
