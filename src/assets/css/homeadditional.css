@@ -611,3 +611,24 @@
       max-height: 40rem;
     }
   }
+
+  /* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode #reviews-1604 {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    body.dark-mode #reviews-1604 .cs-title {
+      color: var(--bodyTextColorWhite);
+    }
+    body.dark-mode #reviews-1604 .cs-review {
+      background-color: var(--medium);
+    }
+    body.dark-mode #reviews-1604 .cs-review-text,
+    body.dark-mode #reviews-1604 .cs-name {
+      color: var(--bodyTextColorWhite);
+    }
+    body.dark-mode #reviews-1604 .cs-job {
+      color: var(--bodyTextColorWhite);
+      opacity: .7;
+    }
+  }
