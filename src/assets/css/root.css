@@ -2607,7 +2607,9 @@ body.dark-mode .cs-button-5:before {
   }
 }
 
-/*    Side By Side      */
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
