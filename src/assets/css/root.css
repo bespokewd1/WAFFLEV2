@@ -21,6 +21,12 @@
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     background-color: #FFB200;
   }
+  .cs-page-break{
+    background-color: #fafbfc;
+  }
+  .dark-mode .cs-page-break{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
   .cs-topper {
     display: block;
     margin-bottom: 0.25rem;
@@ -2031,6 +2037,7 @@ body.dark-mode .cs-button-5:before {
     display: inline-flex;
     justify-content: flex-start;
     gap: 0.5rem;
+    margin-bottom: 1rem;
   }
   #cs-footer-1340 .cs-social-link {
     width: 2rem;
