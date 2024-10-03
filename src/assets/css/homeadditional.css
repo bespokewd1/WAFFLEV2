@@ -415,8 +415,8 @@
 
   #cta-1072 .cs-title {
       margin: 0;
-
       color: var(--bodyTextColorWhite);
+      font-size: clamp(2.25rem, 6.4vw, 3.5rem);
   }
   #cta-1072 .cs-button-box {
       display: flex;
