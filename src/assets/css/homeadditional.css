@@ -605,6 +605,12 @@
       /* Makes img tag act as a background image */
       object-fit: cover;
     }
+    .cs-button-solid-wrapper #reviews-1604{
+      display: flex;
+      justify-content: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
   }
   /* Tablet - 768px */
   @media only screen and (min-width: 48rem) {
