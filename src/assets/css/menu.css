@@ -692,7 +692,7 @@
     z-index: 20;
   }
   #cs-menu-group .cs-title {
-    font-size: clamp(3.9375rem, 7.9vw, 5.4625rem);
+    font-size: 2.5rem;
     line-height: 1.2em;
     text-align: inherit;
     max-width: 43.75rem;
@@ -779,6 +779,9 @@
   }
 }
 @media only screen and (min-width: 48rem) {
+  #cs-menu-group .cs-title {
+    font-size: clamp(3.9375rem, 7.9vw, 5.4625rem);
+  }
   #cs-menu-group .cs-container {
     max-width: 80rem;
   }
