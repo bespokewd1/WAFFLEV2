@@ -665,3 +665,9 @@
       opacity: .7;
     }
   }
+
+/* Additional */
+
+body:not(.dark-mode) #contact .cs-button-solid{
+    background-color: #EB5B00;
+}

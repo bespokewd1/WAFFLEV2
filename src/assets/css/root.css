@@ -2302,9 +2302,6 @@ body.dark-mode .cs-button-5:before {
   #contact .cs-button-solid {
     border: none;
   }
-  body:not(.dark-mode) #contact .cs-button-solid{
-    background-color: #EB5B00;
-}
   #contact .cs-button-solid:hover {
     cursor: pointer;
   }
