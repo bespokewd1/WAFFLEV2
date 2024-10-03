@@ -2195,7 +2195,7 @@ body.dark-mode .cs-button-5:before {
   }
 }
 /* Dark Mode */
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 0rem) {
   body.dark-mode #cs-footer-1340 {
     background-color: transparent;
   }
