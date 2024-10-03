@@ -60,7 +60,7 @@
         height: auto;
         display: block;
     }
-    body:not(.dark-mode) svg.cs-icon path, body:not(.dark-mode) svg.cs-icon path {
+    body:not(.dark-mode) svg.cs-icon path, body:not(.dark-mode) svg.cs-icon rect {
       stroke:#ffba19;
       fill: #ffba19;
     }
