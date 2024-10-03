@@ -346,6 +346,9 @@
     #gallery-44 .cs-button-solid:hover:before {
         width: 100%;
     }
+    body:not(.dark-mode) #gallery-44 .cs-button-solid{
+        background-color: #EB5B00;
+    }
 }
 /* In Between - 600px */
 @media only screen and (min-width: 37.5rem) {
