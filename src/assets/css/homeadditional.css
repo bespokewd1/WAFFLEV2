@@ -672,3 +672,7 @@
 body:not(.dark-mode) #contact .cs-button-solid{
     background-color: #EB5B00;
 }
+
+.darkmode .cs-page-break{
+    background-color: rgba(0, 0, 0, 0.2);
+}
