@@ -2255,7 +2255,7 @@ body.dark-mode .cs-button-5:before {
     gap: 1rem;
   }
   #contact .cs-title {
-    text-align: right;
+    text-align: center;
   }
   #contact .cs-form {
     display: flex;
@@ -2388,7 +2388,7 @@ body.dark-mode .cs-button-5:before {
   }
   #contact .cs-title,
   #contact .cs-topper {
-    text-align: right;
+    text-align: center;
     margin-left: 0;
   }
   #contact .cs-title {
