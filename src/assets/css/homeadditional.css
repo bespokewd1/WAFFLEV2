@@ -172,6 +172,14 @@
         top: 5.9375em;
         right: 6.5625em;
     }
+    img.cs-graphic-bottom {
+      max-width: 8.75em;
+      padding: .5rem;
+      position: absolute;
+      z-index: 20;
+      left: 6.375em;
+      bottom: 4.9375em;
+    }
     #sbs-1067 .cs-box {
         width: 100%;
         max-width: 10.625rem;
