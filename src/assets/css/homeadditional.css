@@ -7,6 +7,9 @@
     #sbs-1067 {
         padding: var(--sectionPadding);
     }
+    body:not(.dark-mode) #sbs-1067{
+        background-color: var(--primaryLight);
+    }
     #sbs-1067 .cs-container {
         width: 100%;
         /* changes to 1280px at desktop */
