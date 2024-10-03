@@ -764,3 +764,7 @@ body:not(.dark-mode) #contact .cs-button-solid{
 .dark-mode .cs-page-break{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+#contact .cs-topper {
+    text-align: center;
+}
