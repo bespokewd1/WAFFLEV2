@@ -676,10 +676,4 @@
       max-width: 100%;
       height: 25rem;
   }
-  #gallery-402 .cs-image:nth-of-type(2),
-  #gallery-402 .cs-image:nth-of-type(3),
-  #gallery-402 .cs-image:nth-of-type(4),
-  #gallery-402 .cs-image:nth-of-type(5) {
-      width: 19.0625rem;
-  }
 }
