@@ -490,6 +490,11 @@
       /* centers content horizontally, set to flex-start to left align */
       align-items: center;
     }
+    #reviews-1604 .cs-stars {
+      width: auto;
+      margin-bottom: 1rem;
+      height: 20px;
+    }
     #reviews-1604 .cs-title {
       max-width: 20ch;
       margin: 0;
