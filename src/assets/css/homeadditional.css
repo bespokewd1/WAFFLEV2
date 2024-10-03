@@ -8,7 +8,7 @@
         padding: var(--sectionPadding);
     }
     body:not(.dark-mode) #sbs-1067{
-        background-color: #ffe5b3
+        background-color: var(--bodyTextColorWhite)
     }
     #sbs-1067 .cs-container {
         width: 100%;
@@ -392,6 +392,9 @@
     #cs-content-1801 .cs-title {
       max-width: 25ch;
     }
+    body:not(.dark-mode) #cs-content-1801 .cs-title, body:not(.dark-mode) #cs-content-1801 .cs-text {
+      color: var(--bodyTextColorWhite);
+    }
     #cs-content-1801 .cs-button-solid {
       font-size: calc(16/16 * 1rem);
       /* 46px - 56px */
@@ -445,11 +448,8 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-      body:not(.dark-mode) #reviews-1604{
-        background-color: #ffe5b3
-    }
     #reviews-1604 {
-      background-color: #f7f7f7;
+      background-color: var(var(--bodyTextColorWhite));
       position: relative;
       z-index: 1;
     }
