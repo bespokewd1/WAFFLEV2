@@ -605,11 +605,10 @@
       /* Makes img tag act as a background image */
       object-fit: cover;
     }
-    .cs-button-solid-wrapper #reviews-1604{
+    #reviews-1604 .cs-button-solid-wrapper {
       display: flex;
       justify-content: center;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-top: 2rem;
     }
   }
   /* Tablet - 768px */
