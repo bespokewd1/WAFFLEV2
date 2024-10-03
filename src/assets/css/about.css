@@ -633,10 +633,9 @@
       align-items: center;
       flex-wrap: wrap;
       /* 16px - 20px */
-      gap: clamp(1rem, 1.5vw, 1.25rem);
+      gap: clamp(.5rem, 1vw, 1rem);
   }
   #gallery-402 .cs-image {
-      border-radius: 1.25rem;
       width: 47%;
       aspect-ratio: 1;
       /* clips the image corners */
