@@ -310,6 +310,7 @@
     overflow: initial;
   }
   #cs-menu-group {
+    padding-top: clamp(10rem, 18vw, 8rem);
     text-align: center;
     height: auto;
     padding: var(--sectionPadding);
