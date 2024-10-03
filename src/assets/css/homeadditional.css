@@ -60,8 +60,9 @@
         height: auto;
         display: block;
     }
-    body:not(.dark-mode) svg.cs-icon path {
+    body:not(.dark-mode) svg.cs-icon path, body:not(.dark-mode) svg.cs-icon path {
       stroke:#ffba19;
+      fill: #ffba19;
     }
     #sbs-1067 svg.cs-icon{
         width:5rem
