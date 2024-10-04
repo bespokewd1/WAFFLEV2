@@ -21,29 +21,6 @@
                 <p>Restaurant: 8AM-8PM</p>
                 <p>Bar: 10AM-2AM</p>
             </div>
-            <div class="cs-time-weather">
-                <h4 class="cs-copyright">Sherwood Park, Canada:</h4>
-                <p class="cs-copyright" id="EdmontonTime">12:45 PM</p> <!-- Example time -->
-                <p class="temp">20°C</p> <!-- Example temperature -->
-                <p class="summary">Clear sky</p> <!-- Example weather description -->
-
-                <script src="script.js"></script>
-                <span class="cs-copyright">© Copyright 2024 - <a class="cs-copyright-link" href="">Bespoke Web Design Edmonton</a></span>
-
-                <script>
-                    async function fetchWeather() {
-                        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Edmonton,ca&appid=YOUR_API_KEY&units=metric');
-                        const data = await response.json();
-
-                        // Update the HTML with weather data
-                        document.getElementById('EdmontonTime').innerText = new Date().toLocaleTimeString();
-                        document.querySelector('.temp').innerText = ${data.main.temp}°C;
-                        document.querySelector('.summary').innerText = data.weather[0].description;
-                    }
-
-                    fetchWeather();
-                </script>
-            </div>
         </div>
         <!-- Links -->
         <div class="cs-ul-wrapper">
