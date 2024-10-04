@@ -192,13 +192,11 @@
     display: block;
   }
   #sbs-1014 .cs-quote-icon {
-    /* 60px - 136px */
-    width: clamp(3.75rem, 10vw, 8.5rem);
+    width: clamp(7rem, 10vw, 8.5rem);
     height: auto;
     position: absolute;
-    bottom: 0rem;
-    /* 16px - 32px */
-    right: clamp(1rem, 4vw, 2rem);
+    bottom: clamp(.5rem, 4vw, 0rem);
+    right: clamp(1.5rem, 4vw, 2rem);
   }
   #sbs-1014 .cs-image-group {
     /* scaling the font size with the view width */
