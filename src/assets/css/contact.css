@@ -235,6 +235,9 @@
     flex: none;
     order: 0;
   }
+  #contact-1879 .cs-content {
+    margin-top: 0;
+  }
   #contact-1879 .cs-form {
     /* 514px - 738px */
     width: clamp(32.125rem, 50vw, 46.125rem);
