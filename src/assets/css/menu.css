@@ -353,8 +353,7 @@
     position: sticky;
     column-gap: clamp(0.5rem, 2vw, 1.5rem);
     row-gap: 0.5rem;
-    top: clamp(5rem, 8vw, 6.5rem);
-    /* Adjust the clamp values if necessary */
+    top: clamp(8.5rem, 8vw, 6.5rem); /* Adjust the clamp values if necessary */
     z-index: 100;
   }
   #cs-menu-group .cs-button-group {
