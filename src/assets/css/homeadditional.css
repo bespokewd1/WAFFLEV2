@@ -771,6 +771,10 @@
 
 /* Additional */
 
+body:not(.dark-mode) .cs-stripes-dark, .dark-mode .cs-stripes-light{
+  display: none;
+}
+
 body:not(.dark-mode) #contact .cs-button-solid{
     background-color: #EB5B00;
 }
