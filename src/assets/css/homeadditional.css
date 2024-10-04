@@ -772,7 +772,7 @@
 /* Additional */
 
 body:not(.dark-mode) .cs-stripes-dark, .dark-mode .cs-stripes-light{
-  display: none;
+  display: none !important;
 }
 
 body:not(.dark-mode) #contact .cs-button-solid{
@@ -782,7 +782,7 @@ body:not(.dark-mode) #contact .cs-button-solid{
 .dark-mode .cs-page-break{
     background-color: rgba(0, 0, 0, 0.2);
 }
-.cs-custom-icon-size{
+.cs-custom-icon-size svg{
   width: 4rem;
 }
 #contact .cs-topper {
