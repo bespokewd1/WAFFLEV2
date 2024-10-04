@@ -165,6 +165,9 @@
         z-index: -1;
         transform: translateX(-50%);
     }
+    body:not(.dark-mode) #sbs-1067 .cs-stripes{
+        filter: brightness(.7);
+    }
     #sbs-1067 .cs-graphic {
         width: 8.75em;
         height: auto;
