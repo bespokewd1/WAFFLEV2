@@ -2045,7 +2045,7 @@ body.dark-mode .cs-button-5:before {
   #cs-footer-1340 .cs-social-link {
     width: 2rem;
     height: 2rem;
-    background-color: #f7f7f7;
+    background-color: #4267B2;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -2221,7 +2221,7 @@ body.dark-mode .cs-button-5:before {
     color: var(--primary);
   }
   body.dark-mode #cs-footer-1340 .cs-icon,
-  body.dark-mode #cs-footer-1340 .cs-social-img {
+  #cs-footer-1340 .cs-social-img {
     filter: grayscale(1) brightness(1000%);
   }
   body.dark-mode #cs-footer-1340 .cs-social-link {
