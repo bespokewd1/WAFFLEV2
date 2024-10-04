@@ -30,6 +30,7 @@
     display: block;
     position: relative;
     z-index: 1;
+    order: 1;
   }
   #contact-1879 .cs-picture {
     width: 34.9em;
@@ -96,6 +97,7 @@
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
     align-items: flex-start;
+    margin-top: 1rem;
   }
   #contact-1879 .cs-title {
     /* 48px - 64px */
@@ -231,6 +233,7 @@
   #contact-1879 .cs-image-group {
     font-size: min(0.95vw, 1em);
     flex: none;
+    order: 0;
   }
   #contact-1879 .cs-form {
     /* 514px - 738px */
