@@ -508,6 +508,9 @@
     gap: 1rem;
     position: relative;
   }
+  #cs-menu-group .cs-drinks-menu .cs-h3 span.cs-menu-p{
+    font-weight: 400
+}
   #cs-menu-group .cs-name {
     margin: clamp(0.25rem, 0.8vw, 0.625rem) 0 0 0;
     max-width: 16ch;
