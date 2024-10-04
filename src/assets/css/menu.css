@@ -580,8 +580,8 @@
     width: 70%;
     max-width: 20ch;
   }
-  .cs-drinks-menu{
-    width: 100%;
+  .cs-drinks-menu .cs-menu-row.cs-3 .cs-name {
+    width: auto;
     max-width: unset;
   }
   #cs-menu-group .cs-menu-row {
