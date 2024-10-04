@@ -783,7 +783,7 @@ body:not(.dark-mode) #contact .cs-button-solid{
     background-color: rgba(0, 0, 0, 0.2);
 }
 .cs-custom-icon-size svg{
-  width: 4rem;
+  width: 4rem !important;
 }
 #contact .cs-topper {
     text-align: center;
